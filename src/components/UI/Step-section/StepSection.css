@@ -1,0 +1,32 @@
+.single__step__item{
+    background: #343434;
+    border-radius: 5px;;
+    padding:30px;
+    text-align: center;
+    height:100%;
+}
+
+.step__title{
+    color: #fff;
+}
+
+
+.step__item__content h5 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.single__step__item span i{
+    color:#fff;
+    padding: 20px;
+    font-size: 1.4rem;
+    background:#5142FC;
+    border-radius: 5px;
+
+
+}
+.step__item__content{
+    margin-top: 10%;
+    margin-bottom: 20px;
+}

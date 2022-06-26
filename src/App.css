@@ -47,3 +47,15 @@ ul{
 section,footer{
   padding: 60px 0px;
 }
+
+
+
+/*custom scroll bar*/
+::-webkit-scrollbar{
+  width: 10px;
+  background:#343444; 
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background:linear-gradient(-45deg,#E250E5,#4B50E6,#E250E5,#4B50E6);
+}

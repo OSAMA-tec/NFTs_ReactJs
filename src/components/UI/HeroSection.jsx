@@ -3,7 +3,6 @@ import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import './hero-section.css';
 import heroImg from '../../assets/images/hero.jpg';
-
 const HeroSection = () => {
   return (
     <>
@@ -18,11 +17,11 @@ const HeroSection = () => {
                 </h2>
                 <p>HELOO THIS IS BEST NFTs IN THE WORLD</p>
                 <div className=" hero__btns d-flex align-items-center gap-4">
-                  <button className="explore__btns d-flex align-items-center gap-2">
+                  <button  className="explore__btns d-flex align-items-center gap-2">
                     <i class="ri-rocket-line"></i>
                     <Link to="/market">Explore</Link>
                   </button>
-                  <button className=" create__btns d-flex align-items-center gap-2">
+                  <button  className=" create__btns d-flex align-items-center gap-2">
                     <i class="ri-ball-pen-line"></i>
                     <Link to="/create">Create</Link>
                   </button>
