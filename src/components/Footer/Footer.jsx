@@ -5,7 +5,6 @@ import {
   Col,
   ListGroup,
   ListGroupItem,
-  Input,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import "./footer.css";
@@ -73,7 +72,7 @@ const Footer = () => {
               <div className="logo">
                 <h2 className="d-flex gap-2 align-items-center">
                   <span>
-                    <i class="ri-fire-fill"> </i>
+                    <i className="ri-fire-fill"> </i>
                   </span>
                   NFTs
                 </h2>
@@ -117,15 +116,15 @@ const Footer = () => {
                 
                 <span>
                   <Link to="#"></Link>
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </span>
                 <span>
                   <Link to="#"></Link>
-                  <i class="ri-instagram-fill"></i>
+                  <i className="ri-instagram-fill"></i>
                 </span>
                 <span>
                   <Link to="#"></Link>
-                  <i class="ri-linkedin-box-fill"></i>
+                  <i className="ri-linkedin-box-fill"></i>
                 </span>
               </div>
             </Col>

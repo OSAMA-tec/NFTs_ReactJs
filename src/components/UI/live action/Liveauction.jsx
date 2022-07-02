@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 import Nftcard from "../Nft-card/Nftcard.jsx";
 import { NFT__DATA } from "../../../assets/data/data.js";
 import "./live-auction.css";
+
+
 const Liveauction = () => {
   return (
     <>
-      <section>
+      <section> 
         <Container>
         <Row>
         <Col lg="12" className="md-5">

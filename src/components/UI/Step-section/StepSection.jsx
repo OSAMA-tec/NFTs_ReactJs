@@ -3,8 +3,6 @@ import "./StepSection.css";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
-import { NFT__DATA } from "../../../assets/data/data";
-
 const STEP__DATA=[
     {
         title:'Create and sell your NFTs',

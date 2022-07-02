@@ -1,0 +1,59 @@
+.App{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+
+}
+.box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #343444;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    padding: 60px;
+}
+
+.up__btn{
+    /* background-color: rgb(79, 77, 77); */
+    cursor: pointer !important;
+    padding: 12px 22px;
+    font-size: 20px;
+    margin-top: 100px;
+    color: white !important;
+    border-radius: 20px;
+    margin-left: 35%;
+    border: 1px solid #5142fc;
+    background: #5142fc !important;
+    color: white;
+}
+
+.in__btn{
+  /* background-color:transparent !important; */
+    cursor:pointer !important;
+    border:2px solid #fff!important;
+    padding: 7px 7px;
+    border-radius: 20px;
+    margin-left: 16%;
+    color: white;
+    
+}
+
+.up__btn,.in__btn :hover{
+    background-color:rgb(255, 254, 254);
+    color:rgb(255, 252, 252) !important;
+}
+
+@media only screen and(max-width:425px){
+    .box{
+        margin-right: 8%;
+    }
+    .up__btn{
+        margin-right:10%;
+    }
+    .in__btn{
+        margin-right:10%;
+    }
+}

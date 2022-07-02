@@ -1,8 +1,6 @@
 import React from "react";
 import "./Modal.css";
 
-import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
 const Modal = ({ setModal }) => {
   return (
     <>

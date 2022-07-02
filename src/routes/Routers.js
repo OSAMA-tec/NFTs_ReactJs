@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Create from "../pages/Create";
@@ -11,6 +10,9 @@ import SellerProfile from "../pages/SellerProfile";
 import Wallet from "../pages/Wallet";
 import Login from "../components/loginsignup/Login"
 import SignUp from "../components/loginsignup/SignUp"
+import Uploaddata from "../components/UI/UploadData/Uploaddata";
+import Contactpage from "../components/Contactpage/Contactpage";
+import Particles from "../components/Animation/Particles";
 const Routers = () => {
   return <Routes>
   <Route path='/' element={<Navigate to ='/home'/>}/>
@@ -25,6 +27,10 @@ const Routers = () => {
   <Route path='/nftdetails' element={<NFTDetails/>}/>
   <Route path='/editprofile' element={<EditProfile/>}/>
   <Route path='/market/:id' element={<NFTDetails/>}/>
+  <Route path='/uploaddata' element={<Uploaddata/>}/>
+  <Route path='/contactpage' element={<Contactpage/>}/>
+  <Route path='/particles' element={<Particles/>}/>
+
 
   </Routes>
 };

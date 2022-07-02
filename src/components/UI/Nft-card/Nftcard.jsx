@@ -9,6 +9,7 @@ const Nftcard = (props) => {
   const { title, id, currentBid, imgUrl, creatorImg, creator } = props.item;
 
   const [showModal, setModal] = useState(false);
+  const [increase, setincrease] = useState(false);
 
   return (
     <>
@@ -39,8 +40,9 @@ const Nftcard = (props) => {
             <button
               className="bid__btn d-flex align-items-center gap-1"
               onClick={() => setModal(true)}
+              onAuxClick={()=>setincrease(true)}
             >
-              <i class="ri-shopping-bag-line"></i>Place Bid
+              <i className="ri-shopping-bag-line"></i>Place Bid
             </button>
 
             {showModal && <Modal setModal={setModal} />}

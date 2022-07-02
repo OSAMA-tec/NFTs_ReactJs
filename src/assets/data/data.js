@@ -19,6 +19,7 @@ export const NFT__DATA = [
   {
     id: "01",
     title: "Travel Monkey Club",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img01,
     creator: "Trista Francis",
@@ -29,6 +30,7 @@ export const NFT__DATA = [
   {
     id: "02",
     title: "Sir Lion Swag",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img02,
     creator: "Trista Francis",
@@ -39,6 +41,7 @@ export const NFT__DATA = [
   {
     id: "03",
     title: "Civilian",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img03,
     creator: "Trista Francis",
@@ -49,6 +52,7 @@ export const NFT__DATA = [
   {
     id: "04",
     title: "Guard",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img04,
     creator: "Trista Francis",
@@ -59,6 +63,7 @@ export const NFT__DATA = [
   {
     id: "05",
     title: "Travel Monkey Club",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img05,
     creator: "Trista Francis",
@@ -69,6 +74,7 @@ export const NFT__DATA = [
   {
     id: "06",
     title: "Sir Lion Swag",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img06,
     creator: "Trista Francis",
@@ -79,6 +85,7 @@ export const NFT__DATA = [
   {
     id: "07",
     title: "Civilian",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img07,
     creator: "Trista Francis",
@@ -89,6 +96,7 @@ export const NFT__DATA = [
   {
     id: "08",
     title: "Guard",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img08,
     creator: "Trista Francis",
@@ -99,6 +107,7 @@ export const NFT__DATA = [
   {
     id: "09",
     title: "Travel Monkey Club",
+    count:"0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img09,
     creator: "Trista Francis",

@@ -12,13 +12,14 @@ function SignUp() {
   const register = (e) => {
     e.preventDefault();
     console.log(userFnamereg);
-    Axios.post("http://localhost:3001/register", {
+    console.log(userpass);
+    Axios.post("http://localhost:5000/user/register", {
       First_Name: userFnamereg,
       Second_Name: userLnamereg,
       Email: userEmail,
       password: userpass,
-    }).then(({status, data}) => {
-      console.log(status, data);
+    }).then((response) => {
+      console.log(response);
     });
   };
   return (
@@ -70,9 +71,8 @@ function SignUp() {
           />
         </div>
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary" onClick={(e)=>{
-            register(e);
-          }}>
+          <button type="submit" className="btn btn-primary" onClick={register}
+          >
             Sign Up
           </button>
         </div>

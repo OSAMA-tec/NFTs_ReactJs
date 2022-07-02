@@ -6,7 +6,7 @@ import {Container,Row,Col} from "reactstrap"
 import { NFT__DATA } from '../../../assets/data/data'
 
 import Nftcard from '../Nft-card/Nftcard'
-const Trending = () => {
+const Trending = ({setincrease}) => {
   return <>
   <section>
     <Container>
@@ -21,7 +21,6 @@ const Trending = () => {
             </Col>
         ))
     }
-
     </Row>
     </Container>
   </section>
