@@ -1,7 +1,7 @@
 {
   "name": "mywebsite",
   "version": "0.1.0",
-  "homepage": "https://tbcompany.live",
+  "homepage": "https://OSAMA-tec.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
